@@ -1,0 +1,26 @@
+{
+  "name": "applybot",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.0.0",
+  "description": "kelloggs can suck my dick",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "get-solver": "node ./src/configureCaptcha.js",
+    "start": "node ./src/kellogs.js"
+  },
+  "keywords": [],
+  "author": "danithecyberpunkgirl",
+  "license": "MIT",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "chromedriver": "^96.0.0",
+    "faker": "^5.5.3",
+    "selenium-webdriver": "^4.1.0"
+  }
+}
