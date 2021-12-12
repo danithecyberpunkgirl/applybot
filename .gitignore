@@ -1,0 +1,52 @@
+#Yarn 3
+**/.yarn/**
+!.yarn/cache
+!.yarn/cache/*
+!.yarn/patches
+!.yarn/patches/*
+!.yarn/plugins
+!.yarn/plugins/*
+!.yarn/releases
+!.yarn/releases/*
+!.yarn/sdks
+!.yarn/sdks/*
+!.yarn/versions
+!.yarn/versions/*
+
+# Captcha Plugin /w api key
+**/captchaplugin.zip
+
+# Chrome Data
+**/chromeUserDir/**
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+.DS_Store
+**/.env.development
+**/.env.test
+**/.env.production
+**/.cache
+**/.cache/**
+
+# Dependency directories
+node_modules/
+**/node_modules/**
+
+# Built javascript
+**/build/**
+**/dist/**
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Yarn Integrity file
+.yarn-integrity
